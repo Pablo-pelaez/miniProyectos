@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(22, 22, 22);
+    color: rgb(228, 255, 70);
+    margin: 1em;
+}
+
+.title{
+    padding: 1rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    border: 2px solid rgb(100, 77, 19);
+    border-radius: 20px;
+}
+
+.title:hover{
+    background-color: rgb(100, 77, 19);
+    opacity: .7;
+}
+
+.image{
+    max-width: 100%;
+    margin-bottom: 1em;
+    border: 8px ridge rgb(100, 77, 19);
+    /* outline: 8px ridge rgb(100, 77, 19);
+    outline-offset: -5px; */
+    /* border-radius: 20%;
+    overflow: hidden; */
+}
+
+.image:hover{
+    opacity: 0.5;
+    border: 8px ridge rgb(228, 225, 70);
+    outline-offset: -5px;
+}
+
+.gallery{
+    columns: 5 320px;
+    column-gap: 1em;
+}
